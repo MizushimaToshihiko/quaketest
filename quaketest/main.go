@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/MizushimaToshihiko/safety/xmls"
+	"github.com/MizushimaToshihiko/quaketest/xmls"
 )
 
 var osExit = os.Exit

@@ -1,3 +1,3 @@
-module github.com/MizushimaToshihiko/safety/retxml/xmls
+module github.com/MizushimaToshihiko/quaketest/xmls
 
 go 1.17
