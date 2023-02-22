@@ -16,11 +16,12 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         man \
         manpages-dev \
         strace \
-        gdb
+        sqlite3 \
+        postgresql
 
 FROM --platform=linux/x86_64 mcr.microsoft.com/vscode/devcontainers/go:1.18
 
-WORKDIR /go/src/github.com/MizushimaToshihiko/gocc
+WORKDIR /go/src/github.com/MizushimaToshihiko/udemy-go
 
 COPY --from=0 /root/ ./
 
